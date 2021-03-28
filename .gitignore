@@ -34,3 +34,13 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+#------ Simplecov
+/coverage/*
+/coverage.data
+
+/config/credentials/development.key
+
+#------ Figaro
+# Ignore application configuration
+/config/application.yml

@@ -1,6 +1,6 @@
 # Nico's Portfolio 2021
 
-	A simple portfolio website, with projects highlights in the front page, a projects page, individual project's show page, and a contact form.
+A simple portfolio website, with projects highlights in the front page, a projects page, individual project's show page, and a contact form.
 
 
 Things you may want to cover:

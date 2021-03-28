@@ -6,6 +6,7 @@ gem 'rails', '~> 6.1.3', '>= 6.1.3.1'
 
 gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', '>= 1.4.4', require: false
+gem 'figaro'
 gem 'jbuilder', '~> 2.7'
 gem 'image_processing', '~> 1.2'
 gem 'pg', '~> 1.1'
@@ -17,9 +18,11 @@ gem 'webpacker', '~> 5.0'
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara'
+  gem 'factory_bot_rails'
   gem 'pry'
   gem 'rspec-rails'
-  gem 'shoulda-matchers'
+  gem 'simplecov', '~> 0.21.2'
+  gem 'shoulda-matchers', '~> 4.5', '>= 4.5.1'
 end
 
 group :development do
