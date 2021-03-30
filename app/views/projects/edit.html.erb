@@ -1,0 +1,5 @@
+<h1>Editing <%= @project.title %> </h1>
+
+<%= render 'form', project: @project %>
+<%= link_to "Back to #{ @project.title }", @project %> |
+<%= link_to 'Projects', projects_path %>
