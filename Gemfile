@@ -6,10 +6,14 @@ gem 'rails', '~> 6.1.3', '>= 6.1.3.1'
 
 gem 'bcrypt', '~> 3.1.7'
 gem 'bootsnap', '>= 1.4.4', require: false
-gem 'devise'
+gem 'devise', github: 'heartcombo/devise', branch: 'ca-omniauth-2'
 gem 'figaro'
 gem 'jbuilder', '~> 2.7'
 gem 'image_processing', '~> 1.2'
+gem 'omniauth', '~> 2.0', '>= 2.0.4'
+gem 'omniauth-facebook', '~> 8.0'
+gem 'omniauth-google-oauth2', '~> 1.0'
+gem 'omniauth-rails_csrf_protection'
 gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
 gem 'sass-rails', '>= 6'
@@ -30,7 +34,7 @@ end
 
 group :development do
   gem 'listen', '~> 3.3'
-  gem 'rack-mini-profiler', '~> 2.0'
+  #gem 'rack-mini-profiler', '~> 2.0'
   gem 'rubocop', require: false
   gem 'rubocop-rails', require: false
   gem 'rubocop-rspec', require: false
